@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xm&#39;s blog</title>
+    <link>https://jarvan1.github.io/</link>
+    <description>Recent content on xm&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>xinmingxu</copyright>
+    <lastBuildDate>Fri, 12 Jan 2024 16:18:55 +0800</lastBuildDate>
+    <atom:link href="https://jarvan1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu Chrome SIGILL</title>
+      <link>https://jarvan1.github.io/posts/sigill/</link>
+      <pubDate>Fri, 12 Jan 2024 16:18:55 +0800</pubDate>
+      <guid>https://jarvan1.github.io/posts/sigill/</guid>
+      <description>记录Chrome 网页崩溃 环境&#xA;Ubuntu 22.04 LTS GNOME Chrome 16 Core vCPU 32G Memory 在做浏览器CPU挖矿的时候，Chrome网页经常会隔几分钟就崩溃，报SIGILL错误 在搜索一番后，猜测可能是由于内存限制&#xA;解决方法 Terminal 启动chrome，并添加参数&#xA;google-chrome --js-flags=&amp;#34;--max_old_space_size=8192&amp;#34; #size 为分配的内存大小 </description>
+    </item>
+  </channel>
+</rss>
